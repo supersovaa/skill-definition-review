@@ -37,3 +37,6 @@ Check existing text whose meaning changes because of the new behavior.
 
 Inspect the full effective skill definition before reporting findings.
 Report findings that require a change together after the review pass is complete.
+Treat a finding as requiring change when it exposes a material defect in the intended behavior, coverage, consistency, or responsibility boundary.
+Treat further precision that preserves the intended behavior as optional refinement.
+After reported findings are addressed, reassess the resulting definition against the same intended behavior and review criteria, and conclude the review when no material defect remains.
