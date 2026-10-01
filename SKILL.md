@@ -19,6 +19,8 @@ Confirm that they express the skill's purpose, applicable situations, and import
 
 Read all rules together before reporting findings.
 Check the applicability of each rule, especially distinctions between different modes or states of work.
+When a skill can govern both ordinary work and review, determine whether the same rules cover both contexts.
+When review needs distinct behavior, place that behavior in a review-specific companion skill and treat an implicit or ambiguous review path as a coverage gap.
 Check for duplicated behavior, conflicting instructions, uncovered cases, and broad rules that override narrower intended behavior.
 
 ## Check responsibility boundaries
